@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
@@ -69,9 +69,7 @@
           </div>
           <div class="course__card">
             <span class="icon-container">
-              <svg class="icon">
-                <use href="assets/sprite.svg#icon-animation"></use>
-              </svg>
+              <img src="assets/icon-animation.svg" alt="" class="icon" />
             </span>
             <h2 class="course__title">Animation</h2>
             <p class="course__desc">
@@ -134,5 +132,9 @@
         <a class="btn btn-blue" href="#">Get Started</a>
       </div>
     </footer>
+    <script>
+      AOS.init();
+    </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </body>
 </html>
