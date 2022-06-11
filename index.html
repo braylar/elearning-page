@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <h1 class="navbar__title">skilled</h1>
+        <a class="navbar__btn" href="#">Get Started</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__cta">
+          <h1 class="hero__tagline heading-l">
+            Maximize skill, minimize budget
+          </h1>
+          <p class="hero__desc">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <button class="btn">Get Started</button>
+        </div>
+        <div class="hero__img-container">
+          <picture class="hero__img">
+            <source
+              srcset="assets/image-hero-desktop.webp"
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="assets/image-hero-tablet.webp"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="assets/image-hero-mobile.webp"
+              media="(min-width: 0px)"
+            />
+            <img src="image-hero-mobile.png" alt="Happy Customer" />
+          </picture>
+        </div>
+      </section>
+
+      <section class="course--block">
+        <div class="course__grid">
+          <div class="course__cta">
+            <h2 class="cta__content">Check out our most popular courses!</h2>
+          </div>
+          <div class="course__card">
+            <span class="icon-container">
+              <svg class="icon">
+                <use href="assets/sprite.svg#icon-animation"></use>
+              </svg>
+            </span>
+            <h2 class="course__title">Animation</h2>
+            <p class="course__desc">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="" class="course__link">Get Started</a>
+          </div>
+          <div class="course__card">
+            <span class="icon-container">
+              <img src="assets/icon-design.svg" alt="" class="icon" />
+            </span>
+            <h2 class="course__title">Design</h2>
+            <p class="course__desc">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="" class="course__link">Get Started</a>
+          </div>
+          <div class="course__card">
+            <span class="icon-container">
+              <img src="assets/icon-photography.svg" alt="" class="icon" />
+            </span>
+            <h2 class="course__title">Photography</h2>
+            <p class="course__desc">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="" class="course__link">Get Started</a>
+          </div>
+          <div class="course__card">
+            <span class="icon-container">
+              <img src="assets/icon-crypto.svg" alt="" class="icon" />
+            </span>
+            <h2 class="course__title">Crypto</h2>
+            <p class="course__desc">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="" class="course__link">Get Started</a>
+          </div>
+          <div class="course__card">
+            <span class="icon-container">
+              <img src="assets/icon-business.svg" alt="" class="icon" />
+            </span>
+            <h2 class="course__title">Business</h2>
+            <p class="course__desc">
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <a href="" class="course__link">Get Started</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <h1 class="footer__title">skilled</h1>
+        <a class="btn btn-blue" href="#">Get Started</a>
+      </div>
+    </footer>
+  </body>
+</html>
