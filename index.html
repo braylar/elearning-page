@@ -25,7 +25,7 @@
 
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" data-aos="zoom-out">
         <h3 class="navbar__title">skilled</h3>
         <a class="navbar__btn" href="#">Get Started</a>
       </nav>
@@ -33,7 +33,7 @@
 
     <main>
       <section class="hero">
-        <div class="hero__cta">
+        <div class="hero__cta" data-aos="fade-up">
           <h1 class="hero__tagline heading-l">
             Maximize skill, minimize budget
           </h1>
@@ -62,7 +62,7 @@
         </div>
       </section>
 
-      <section class="course--block">
+      <section class="course--block" data-aos="zoom-out">
         <div class="course__grid">
           <div class="course__cta">
             <h2 class="cta__content">Check out our most popular courses!</h2>
@@ -132,9 +132,10 @@
         <a class="btn btn-blue" href="#">Get Started</a>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </body>
 </html>
